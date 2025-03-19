@@ -77,8 +77,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'netology_m2m_relations',
-        'HOST': '127.0.0.1',
+        'HOST': 'localhost',
         'PORT': '5432',
+        'USER': 'postgres',
+        'PASSWORD': 'qw123qw',
+        'OPTIONS': {
+            'client_encoding': 'UTF8',
+        },
     }
 }
 
